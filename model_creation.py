@@ -1,7 +1,9 @@
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
-
+import datetime
+import wikipedia #pip install wikipedia
+import webbrowser
 import numpy
 import tflearn
 import tensorflow
